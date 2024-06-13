@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+
+    <!---stylesheet-->
+    <link rel="stylesheet" href="/css/style2.css">
+
+    <!---google font link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,300;1,400;1,600&display=swap" rel="stylesheet">
+
+    <!-----font awesome 4 cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+
+<!-------- header ------>
+  <div class="container">
+
+    <div class="navbar">
+          <div class="logo">
+               <a href=""><img src="/images/controle.png" width="125px"></a>
+          </div>
+          <nav >
+              <ul id="MenuItems">
+                  <li><a href="">Pagina Ilkknicial</a></li>
+                  <li><a href="">Jogos</a></li>
+                  <li><a href="">Download</a></li>
+                  <li><a href="">Conta</a></li>
+              </ul>
+          </nav>
+
+          
+          <img src="./images/menu.png" class="menu-icon" onclick="menutoggle()">
+    </div> 
+  </div>       
+    <div class="row">
+    <div class="col-2">
+         <h1></h1>
+         <p>
+           
+            <br> <br>
+            <br> <br>
+            
+         </p>
+        
+    </div>
+    <div class="col-2">
+        
+    </div>
+</div>  
+ 
+                <div class="small-container">
+
+                    
+
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="/images/flappy bird.png">
+                            <h4>Flappy Bird</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <a href="/JOGOS/DetalheFlappy.html" class="btn" target="_blank">ACESSAR  </a>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="/images/super mario.webp">
+                            <h4>Super Mario</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                                <i class="fa fa-star-o" ></i>
+                            </div>
+                            <a href="/JOGOS/DetalheMario.html" class="btn" target="_blank">ACESSAR  </a>
+                        </div>
+
+                        <div class="col-4">
+                            <img src="/images/rick and morty.webp">
+                            <h4>Rick and Morty</h4>
+                            <div class="rating">
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star" ></i>
+                                <i class="fa fa-star-half-o" ></i>
+                            </div>
+                            <a href="/JOGOS/DetalheMemoria.html" class="btn" target="_blank">ACESSAR</a>
+                        </div>
+
+                       
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Downloads Disponíveis</h3>
+                <p>Download de Emuladores</p>
+                <p>Download de ROMS</p>
+               
+            </div>
+            <div class="footer-col-2">
+                <img src="/images/controle-de-video-game.png">
+                <p>START é o canal de games e eSports do UOL! Aqui você vai ter muita gameplay, reviews, lives e programas especiais sobre tudo o que estiver bombando por aí!</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Menu</h3>
+                <ul>
+                   <li><a href="">Página Inicial </a></li> 
+                    <li> <a href="">Jogos</a></li>
+                    <li><a href="">Download</a></li>
+                    <li><a href="">Conta</a></li>
+                </ul>
+            </div>
+           
+        </div>
+        <hr>
+        <p class="Copyright">Copyright-2023 - Gui Falcão</p>
+    </div>
+</div>
+   
+<!-------js for toggle menu--------->
+
+       <script>
+            var MenuItems = document.getElementById("MenuItems");
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if( MenuItems.style.maxHeight == "0px"){
+
+                    MenuItems.style.maxHeight = "200px";
+                }
+                else{
+                    MenuItems.style.maxHeight = "0px";
+                }
+            }
+
+
+
+
+
+       </script>
+
+
+</body>
+</html>
